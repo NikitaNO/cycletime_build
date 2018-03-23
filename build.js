@@ -1,4 +1,4 @@
-/******/ (function(modules) { // webpackBootstrap 1
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 
@@ -86,6 +86,7 @@
 	        cycleTime.cred = cred;
 	        var groups = state.getGroupFilter();
 	        console.log("focus called", groups);
+          console.log("focus called", groups);
 	        cycleTime.main = (0, _reactDom.render)(_react2.default.createElement(_GeotabPage2.default, {
 	          groups: groups }), cycleTime.element);
 	      });
