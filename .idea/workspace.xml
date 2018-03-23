@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="433c22c7-7155-446a-aa8d-cc6dcd2ef4d5" name="Default" comment="final with zones">
+    <list default="true" id="433c22c7-7155-446a-aa8d-cc6dcd2ef4d5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/cycletime.html" afterPath="$PROJECT_DIR$/cycletime.html" />
     </list>
@@ -20,8 +20,8 @@
       <file leaf-file-name="cycletime.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cycletime.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="198">
+              <caret line="11" column="104" lean-forward="false" selection-start-line="11" selection-start-column="104" selection-end-line="11" selection-end-column="104" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -283,7 +283,7 @@
       <updated>1521736950629</updated>
       <workItem from="1521736952017" duration="670000" />
       <workItem from="1521738666052" duration="19000" />
-      <workItem from="1521809533656" duration="6286000" />
+      <workItem from="1521809533656" duration="6441000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Updated link to build.js in html file&quot;&#10;&#10;This reverts commit c530646">
       <created>1521737066235</created>
@@ -341,11 +341,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521819903762</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="final with zones">
+      <created>1521820456677</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1521820456677</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6975000" />
+    <option name="totallyTimeSpent" value="7130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -446,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cycletime.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="198">
+          <caret line="11" column="104" lean-forward="false" selection-start-line="11" selection-start-column="104" selection-end-line="11" selection-end-column="104" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
