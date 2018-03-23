@@ -1,4 +1,4 @@
-/******/ (function(modules) { // webpackBootstrap
+/******/ (function(modules) { // webpackBootstrap 1
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 
@@ -21238,6 +21238,7 @@
 	  function GeotabPage(props) {
 	    _classCallCheck(this, GeotabPage);
 
+	    // State properties
 	    var _this = _possibleConstructorReturn(this, (GeotabPage.__proto__ || Object.getPrototypeOf(GeotabPage)).call(this, props));
 
 	    _this.getData = function (groups) {
