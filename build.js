@@ -86,7 +86,6 @@
 	        cycleTime.cred = cred;
 	        var groups = state.getGroupFilter();
 	        console.log("focus called", groups);
-          console.log("focus called", groups);
 	        cycleTime.main = (0, _reactDom.render)(_react2.default.createElement(_GeotabPage2.default, {
 	          groups: groups }), cycleTime.element);
 	      });
@@ -21421,7 +21420,7 @@
 	              return e.zones.map(function (z) {
 	                return z.id;
 	              });
-	            }).flatten().uniq().values();
+	            }).flatten().uniq().value();
 
 	            return _this.getZonesByIds(zonesIds);
 	          }).then(function (zones) {
@@ -21465,7 +21464,13 @@
 	        }];
 	      });
 
-	      return cycleTime.api.multiCall(calls);
+	      return cycleTime.api.multiCall(calls).then(function (zones) {
+	        return zones.map(function (zone) {
+	          return zone[0];
+	        }).filter(function (zone) {
+	          return zone;
+	        });
+	      });
 	    };
 
 	    _this.prepareRoutesData = function (routes) {
