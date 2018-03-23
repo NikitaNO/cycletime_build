@@ -21246,13 +21246,15 @@
 	      }
 	      _this.setState({ disabledButton: true, finished: false });
 
-	      var calls = [['Get', { typeName: 'Device', search: { groups: groups } }], ['Get', { typeName: 'Zone' }], ['Get', { typeName: 'Group' }]];
+	      var calls = [['Get', { typeName: 'Device', search: { groups: groups } }],
+	      // ['Get', {typeName: 'Zone'}],
+	      ['Get', { typeName: 'Group' }]];
 	      _constants2.default.forEach(function (ruleName) {
 	        calls.push(['Get', { typeName: 'Rule', search: { name: ruleName } }]);
 	      });
 	      cycleTime.api.multiCall(calls).then(function (results) {
 	        var devices = results[0];
-	        var receivedGroups = results[2];
+	        var receivedGroups = results[1];
 	        devices.forEach(function (device) {
 	          device.groups.forEach(function (deviceGroup) {
 	            receivedGroups.forEach(function (group) {
@@ -21262,13 +21264,13 @@
 	            });
 	          });
 	        });
-	        console.log(results[1], 'ZONES');
-	        _this.setState({ zones: results[1] });
+	        // console.log(results[1], 'ZONES');
+	        // this.setState({zones: results[1]});
 	        var neededRules = [];
-	        for (var i = 3; i < results.length; i++) {
+	        for (var i = 2; i < results.length; i++) {
 	          if (results[i].length) neededRules.push(results[i][0]);
 	        }
-	        _this.setState({ insideCutBlockId: results[3].id });
+	        _this.setState({ insideCutBlockId: results[2].id });
 
 	        _this.onDevicesAndRules(devices, neededRules);
 	      });
