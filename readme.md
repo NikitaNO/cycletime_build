@@ -9,3 +9,6 @@ needed info (all the stops) between the start and the end point of route using s
 There is a constant RULENAMES. It is an array - first element - start point, second - end point, others - all needed 
 rules for calculating other needed info. So it will be needed to change this constant and table headers to use it for
 another goals. Also there is filterTable and filterRoutes methods which need to be changed for new filters
+
+
+<!--<script src="https://cdn.rawgit.com/NikitaNO/cycletime_build/master/build.js"></script>-->
